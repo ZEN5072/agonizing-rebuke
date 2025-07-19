@@ -1,0 +1,75 @@
+{
+  "folder": null,
+  "name": "Мучительное осуждение",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "В начале каждого хода цель получает 1d4/2d4/3d4 mental урона, если напугана и не прошло 1 минуты."
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "custom",
+        "predicate": ["condition:frightened"],
+        "value": true
+      }
+    ],
+    "slug": "agonizing-rebuke",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "rounds",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+  "flags": {
+    "agonizing-rebuke": {
+      "casterId": "",
+      "appliedRound": 0
+    },
+    "exportSource": {
+      "world": "",
+      "system": "pf2e",
+      "coreVersion": "12.343",
+      "systemVersion": "6.12.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": ""
+  }
+} 
